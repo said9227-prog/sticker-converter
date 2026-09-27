@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Sticker Converter</string>
+    <string name="app_subtitle">تحويل ملصقات واتساب إلى تيليجرام</string>
+    
+    <!-- Navigation & Tabs -->
+    <string name="nav_packs">حزم الملصقات</string>
+    <string name="nav_import">استيراد جديد</string>
+    <string name="nav_about">عن التطبيق والتراخيص</string>
+    
+    <!-- Home / Packs -->
+    <string name="title_sticker_packs">حزم الملصقات</string>
+    <string name="empty_packs_title">لا توجد حزم ملصقات بعد</string>
+    <string name="empty_packs_desc">ابدأ باستيراد ملصقات من واتساب بصيغة WebP أو ملفات ZIP أو .wastickers</string>
+    <string name="btn_create_pack">إنشاء حزمة جديدة</string>
+    <string name="btn_import_stickers">استيراد ملصقات</string>
+    <string name="stickers_count_format">%1$d ملصق</string>
+    
+    <!-- Import Screen -->
+    <string name="title_import">استيراد الملصقات</string>
+    <string name="import_desc">اختر ملفات ملصقات فردية (WebP / PNG / WEBM) أو حزمة مضغوطة (.wastickers / .zip)</string>
+    <string name="btn_pick_files">اختيار ملفات ملصقات</string>
+    <string name="btn_pick_zip">اختيار ملف ZIP / WASTICKERS</string>
+    <string name="import_processing">جارٍ فحص واستخراج الملفات...</string>
+    <string name="imported_count">%1$d ملف تم اكتشافه</string>
+    
+    <!-- Pack Details & Editor -->
+    <string name="pack_name_label">اسم الحزمة</string>
+    <string name="pack_shortname_label">الاسم المختصر (Short Name)</string>
+    <string name="pack_author_label">المؤلف (اختياري)</string>
+    <string name="pack_default_emoji">الرمز التعبيري الافتراضي (Emoji)</string>
+    <string name="btn_auto_name">توليد الأسماء تلقائيًا</string>
+    <string name="btn_start_conversion">بدء التحويل إلى تيليجرام</string>
+    <string name="btn_export_pack">تصدير الحزمة</string>
+    <string name="btn_delete_pack">حذف الحزمة</string>
+    <string name="confirm_delete_pack">هل أنت متأكد من رغبتك في حذف هذه الحزمة؟</string>
+    
+    <!-- Sticker Item -->
+    <string name="sticker_name_label">اسم الملصق</string>
+    <string name="sticker_emoji_label">Emoji</string>
+    <string name="sticker_status_pending">بانتظار التحويل</string>
+    <string name="sticker_status_processing">جارٍ المعالجة...</string>
+    <string name="sticker_status_ready">جاهز لتيليجرام ✓</string>
+    <string name="sticker_status_failed">فشل التحويل ✗</string>
+    
+    <!-- Conversion Queue -->
+    <string name="title_converting">معالجة الحزمة</string>
+    <string name="conversion_progress_format">تم تحويل %1$d من أصل %2$d</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="conversion_summary_format">ناجح: %1$d | تعذر: %2$d</string>
+    
+    <!-- Export Dialog -->
+    <string name="export_to_telegram">إرسال مباشر إلى تيليجرام (رسمي)</string>
+    <string name="export_as_zip">حفظ كملف ZIP</string>
+    <string name="export_share">مشاركة عبر التطبيقات</string>
+    <string name="telegram_not_installed">تطبيق تيليجرام غير مثبت أو غير متاح</string>
+    
+    <!-- Validation Engine -->
+    <string name="val_ok">الملف مطابق لمواصفات تيليجرام</string>
+    <string name="val_size_too_large">حجم الملف أكبر من الحد الأقصى</string>
+    <string name="val_duration_too_long">مدة الحركة أطول من 3 ثوانٍ</string>
+    <string name="val_invalid_dimensions">أبعاد الملصق غير مطابقة لـ 512px</string>
+    <string name="val_unsupported_codec">ترميز غير متوافق</string>
+</resources>

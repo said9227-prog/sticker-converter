@@ -1,0 +1,6 @@
+{
+  "name": "Sticker Converter",
+  "description": "Convert WhatsApp stickers (static and animated WebP) to Telegram stickers (WebM VP9) with alpha transparency, packs, and smart compression.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
